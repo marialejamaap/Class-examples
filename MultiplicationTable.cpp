@@ -13,4 +13,24 @@ int main()
 	cout<< a << "x" << i <<"="<<mult <<endl; //print result
 	}
 	cin.get();
+	
+	
+}
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+	int a =0 ,i=0,mult=0;
+	cout<<"ingresar numero: ";
+	cin>> a;
+	cout<< " tabla de multiplicación: \n";
+	i=0;
+	while(i<=10) // use while, while i is less or equal to 10 make the following statements
+	{
+	mult=a*i;
+	cout<< a << "x" << i <<"="<<mult <<endl;// print result
+	i++;//increase one unit 
+	}
+	cin.get();
 }
